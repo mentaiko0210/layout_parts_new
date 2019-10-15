@@ -10,7 +10,7 @@
     border-collapse: collapse;
   }
   
-.q3_contents table tr:nth-child(2n+1){
+.q3_contents table tr:nth-child(2n){
     background-color: #ecf1f2;
   }
 
