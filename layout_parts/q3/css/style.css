@@ -18,7 +18,7 @@
       background-color: #2244aa;
   }
   
-.q3_contents table tr:last-child{
+.q3_contents table tbody tr:last-child{
     border-top: dashed #000 2px;
   }
   
