@@ -13,12 +13,12 @@
   font-size: 16px;
   width: 225px;
   box-sizing: border-box;
-  margin: 0 50px 0 0;
+  margin-left: 50px;
   float: left;
 }
 
-.q7_float_box:last-child{
-  margin-right: 0px;
+.q7_float_box:first-child{
+  margin-left: 0;
 }
 
 /*7-2*/
@@ -47,15 +47,15 @@
 
 .q7_inlineblock_box{
   display: inline-block;
-  margin-right: 50px;
+  margin-left: 50px;
   vertical-align: middle;
   font-size: 16px;
   box-sizing: border-box;
   width: 225px;
 }
 
-.q7_inlineblock_box:last-child{
-  margin-right: 0;
+.q7_inlineblock_box:first-child{
+  margin-left: 0;
 }
 
 
