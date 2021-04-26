@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/* 回答はここに書いてね */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td:first-child {
+  background-color: #2244aa;
+  color: white;
+}
+
+th, td {
+  border: solid #dedede 1px;
+}
+
+th, td{
+  padding: 10px;
+  text-align: center;
+}
+
+tr:nth-child(odd) {
+  background-color: #ecf1ecf2;
+}
+
+
+
+
+tr:last-child { 
+  border-top: dashed #000 2px;
+}
+/* 回答はここに書いてね */

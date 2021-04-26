@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/* 回答はここに書いてね */
+.main {
+  width: 900px;
+  height: auto;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: #eff3f4;
+}
+
+.main_text {
+  font-size: 18px;
+  line-height: 22px;
+  word-break: break-all;
+}
+
+.float_left {
+  margin-right: 20px;
+  margin-bottom: 10px;
+  float: left;
+}
+
+.float_right {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  float: right;
+}
+/* 回答はここに書いてね */
