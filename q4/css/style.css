@@ -3,7 +3,7 @@
 /* 回答はここに書いてね */
 .main {
   background-color: whitesmoke;
-  width: 100%;
+  box-sizing: border-box;
   padding: 20px;
 }
 

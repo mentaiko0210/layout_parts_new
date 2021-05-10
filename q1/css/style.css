@@ -2,42 +2,34 @@
 
 /* 回答はここに書いてね */
 .main {
-  width: 940px;
-  height: 1000px;
+  width: 900px;
   margin: 0  auto;
-  position: relative;
+  padding: 20px;
   background-color: #eaf4ff;
 }
 
-.clearfix {
+.clearfix::after {
   display: block;
   content: "";
   clear: both;
 }
 
-.frame {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-}
-
 .blue_box {
-  padding: 20px;
   float: left;
   margin-left: 20px;
   background-color: #3274ae;
 }
 
 .blue_box:first-child {
-  margin: 0 ;
+  margin-left: 0;
 }
 
 .main_text {
-  width: 210px;
-  height: auto;
   border: 10px solid #022336;
-  box-sizing: border-box;
+  width: 210px;
   padding: 20px;
+  margin: 20px;
+  box-sizing: border-box;
   background-color: #eaf4ff;
   font-size: 16px;
   line-height: 16px;
