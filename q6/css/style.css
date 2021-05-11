@@ -1,21 +1,22 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.box_left {
+.q6_1_box_left {
   text-align: center;
 }
 
-.element_left {
+.q6_1_element_left {
   display: inline-block;
-  text-align: left;
-  padding: 10px;
+  width: 90px;
+  text-align: center;
+  padding: 10px 0;
   background-color: #e6f2ff;
 }
 
-.element_right {
+.q6_1_element_right {
+  width: 90px;
   margin: 0 auto;
-  padding: 10px;
-  width: 100px;
+  padding: 10px 0;
   text-align: center;
   background-color: #e6f2ff;
 }

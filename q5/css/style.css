@@ -7,18 +7,17 @@
   width: 500px;
   margin: 0 auto;
   position: relative;
-  background-color: #ECF1F2;
+  background-color: #ecf1f2;
 }
 
 .element_box {
   height: 100px;
   width: 100px;
+  position: absolute;
   text-align: center;
   line-height: 100px;
-}
-
-.element_box:not(:last-child) {
-  position: absolute;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .box_offwhite {
@@ -84,8 +83,6 @@
   position: absolute;
   top: 0;
   left: 80px;
-  z-index: 90;
-  border-collapse: collapse;
   background-color: #ffefd3;
 }
 

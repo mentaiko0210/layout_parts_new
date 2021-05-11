@@ -2,31 +2,34 @@
 
 /* 回答はここに書いてね */
 
-table {
+.content {
   width: 100%;
   table-layout: fixed;
-  border-collapse: collapse;
 }
 
-th, td:first-child {
+.content th, td:first-child {
   background-color: #2244aa;
   color: white;
-}
-
-th, td {
+  padding: 10px 0;
+  text-align: center;
+  font-size: 18px;
+  line-height: 26px;
   border: solid #dedede 1px;
 }
 
-th, td{
-  padding: 10px;
+.content td{
+  padding: 10px 0;
+  font-size: 16px;
+  line-height: 22px;
   text-align: center;
+  border: solid #dedede 1px;
 }
 
-tr:nth-child(odd) {
+.content tr:nth-child(odd) {
   background-color: #ecf1ecf2;
 }
 
-tr:last-child { 
+.content tr:last-child { 
   border-top: dashed #000 2px;
 }
 /* 回答はここに書いてね */

@@ -5,6 +5,7 @@
   width: 900px;
   margin: 0  auto;
   padding: 20px;
+  box-sizing: border-box;
   background-color: #eaf4ff;
 }
 
@@ -15,6 +16,8 @@
 }
 
 .blue_box {
+  width: 230px;
+  padding: 20px;
   float: left;
   margin-left: 20px;
   background-color: #3274ae;
@@ -26,9 +29,7 @@
 
 .main_text {
   border: 10px solid #022336;
-  width: 210px;
   padding: 20px;
-  margin: 20px;
   box-sizing: border-box;
   background-color: #eaf4ff;
   font-size: 16px;
