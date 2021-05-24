@@ -11,12 +11,13 @@
   width: 225px;
   float: left;
   margin: auto;
+  margin-left: 50px;
   box-sizing: border-box;
   font-size: 16px;
 }
 
 .q7_1_element:first-child {
-  margin-right: 50px;
+  margin-left: 0px;
 }
 
 
@@ -28,11 +29,13 @@
   display: table-cell;
   vertical-align: middle;
   width: 225px;
+  padding-right: 50px;
 }
 
 .q7_2_element:last-child  {
-  padding-left: 50px;
+  padding-right: 0px;
 }
+
 .q7_2_text {
   font-size: 16px;
 }

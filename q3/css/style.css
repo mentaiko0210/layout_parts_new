@@ -5,35 +5,35 @@
 .q3_content {
   width: 100%;
   table-layout: fixed;
+}
+
+.q3_content table {
   border-collapse: collapse;
 }
 
-.q3_content th,  td {
+.q3_content th,.q3_content td {
+  text-align: center;
   border: solid #dedede 1px;
-  border-collapse: collapse;
+  padding: 10px 0;
 }
 
 .q3_content th {
   background-color: #2244aa;
   color: white;
-  padding: 10px 0;
-  text-align: center;
   font-size: 18px;
   line-height: 26px;
 }
 
-.q3_content td{
-  padding: 10px 0;
+.q3_content td {
   font-size: 16px;
   line-height: 22px;
-  text-align: center; 
 }
 
-.q3_content tr:nth-child(odd) {
-  background-color: #ecf1ecf2;
+.q3_content tr:nth-child(even) {
+  background-color: #ecf1f2;
 }
 
-.q3_content tr:last-child { 
+.q3_content tbody tr:last-child { 
   border-top: dashed #000 2px;
 }
 /* 回答はここに書いてね */
